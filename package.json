@@ -5,7 +5,7 @@
     "url": "https://github.com/KeitaMoromizato/unlogify.git"
   },
   "version": "0.0.1",
-  "description": "Logger for Webpack(or Other)",
+  "description": "logger for Frontend. `unlogify` will disable logs in production.",
   "main": "index.js",
   "files": [
     "index.js"
