@@ -7,6 +7,7 @@ switch (process.env.NODE_ENV) {
     config = function(logger) {
       return function(){};
     };
+    break;
   
   default:
     config = function(logger) {
