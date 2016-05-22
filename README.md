@@ -15,7 +15,7 @@ $ npm i unlogify -S
 const log = require('unlogify')();
 
 log("hogehoge");
-// => hogehoge
+// => "hogehoge"
 ```
 
 In Webpack build (or Other build system), set `NODE_ENV=production` for production build.
@@ -34,7 +34,7 @@ If `NODE_ENV=production` is set, `unlogify` will disable logs.
 const log = require('unlogify')();
 
 log("hogehoge");
-// => Nothing to show
+// => Nothing
 ```
 
 ## Lisence
